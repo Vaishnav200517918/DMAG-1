@@ -429,6 +429,9 @@ header {
     margin-top: 25vh;
     text-align: left;
   }
+   .home {
+    padding: 100px 0px;
+  }
 }
 
 /* test */
