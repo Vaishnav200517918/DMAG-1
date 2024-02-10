@@ -65,6 +65,7 @@
 @media (max-width: 992px) {
   .home-about {
     padding: 30px 15px;
+    text-align:center;
   }
 
   .home-about img {
@@ -76,6 +77,14 @@
   #home-about-right {
     padding-left: 0;
   }
+
+  .home-about-title {
+        font-size: 30px;
+    } 
+      
+  .home-about-p{
+        font-size: 13px;
+    }
 }
 
 /* about-intro-section */
