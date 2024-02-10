@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f9f9f7;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+h5 {
+  font-size: 1rem;
+}
+
+header {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 180px;
+}
+
+/* home */
+.home {
+  padding: 100px 170px;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d4f3a;
+}
+
+.menu-container a {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.menu-container a:hover {
+  color: #1d4f3a;
+}
+
+.homepage {
+  position: relative;
+}
+
+.homepage .carousel-indicators {
+  justify-content: end;
+  bottom: 50px;
+  align-items: center;
+}
+
+.carousel-indicators [data-bs-slide] {
+  background: url("../img/rightlong.png") no-repeat;
+
+  background-size: 20px;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  border: none;
+}
+.carousel-indicators [data-bs-slide]:nth-child(4) {
+  background: url("../img/leftlong.png") no-repeat;
+
+  background-size: 20px;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  border: none;
+}
+
+.hero-residence {
+  bottom: 0px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.menu-btn {
+  margin-right: 100px;
+}
+
+.hero-contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero-find {
+  color: white;
+  text-decoration: none;
+  border: solid 1px white;
+}
+.hero-find p {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 4px 8px;
+}
+
+.hero-content {
+  z-index: 888;
+}
+
+.hero-content-title {
+  font-size: 3.3rem;
+  text-transform: uppercase;
+  margin: 32px 0px;
+  color: white;
+  line-height: 3.3rem;
+  font-weight: 300;
+  margin-top: 40vh;
+  text-align: left;
+}
+
+.hero-content-sub {
+  text-transform: uppercase;
+  color: white;
+  text-align: left;
+}
+
+.home img {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-navigation {
+  z-index: 888;
+  position: absolute;
+
+  bottom: 70px;
+  color: white;
+  display: flex;
+  align-self: end;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-navigation .nav-btn {
+  width: 35px;
+  height: 4px;
+  background: gray;
+  cursor: pointer;
+}
+
+.slider-navigation .nav-btn:not(:last-child) {
+  margin-right: 15px;
+}
+.slider-navigation .nav-btn:hover {
+  transform: scale(1.2);
+}
+
+.slider-navigation .nav-btn.active {
+  background-color: white;
+}
+
+.img-slide {
+  position: absolute;
+  width: 100%;
+  clip-path: circle(0% at 0 50%);
+}
+
+.img-slide.active {
+  clip-path: circle(150% at 0 50%);
+}
+
+/* Services */
+.services {
+  padding: 64px 88px;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.article-subtitle,
+.article-title,
+.article-text,
+.services-title {
+  text-align: center;
+}
+
+.article-subtitle {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #1d4f3a;
+  margin-top: 8px;
+
+  margin-bottom: 24px;
+}
+
+.article-title {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 56px;
+}
+
+.article-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 70vw;
+  line-height: 28px;
+  margin-bottom: 56px;
+}
+
+.services-image img,
+.residences-image img {
+  width: 100%;
+  height: 100%;
+
+  object-position: center;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.services-title {
+  margin-top: 64px;
+}
+
+.residences {
+  padding: 64px 128px;
+}
+
+.residences-image-text h4 {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.residences-image-text p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.residences-image-text {
+  color: white;
+  bottom: 2vw;
+  width: 100%;
+}
+/*  about dmag*/
+
+/* home about section */
+
+.blog-line {
+  border-top: 1px solid #1d4f3a;
+}
+
+/* subscribe */
+
+.subscribe {
+  padding: 128px 128px;
+  background-color: darkblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: url("../img/Newsletter.webp");
+}
+
+.subscribe-title,
+.subscribe-subtitle,
+.subscribe-text {
+  color: white;
+}
+
+.subscribe-text {
+  padding: 0 40px;
+}
+
+.email-form {
+  display: flex;
+}
+
+.email-form-address {
+  background-color: #1d4f3a;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 33vw;
+}
+
+.email-form-address::placeholder {
+  color: white;
+  opacity: 100%;
+}
+
+.email-form-btn {
+  color: black;
+  border: none;
+  padding: 12px 24px;
+}
+
+@media screen and (max-width: 992px) {
+  .menu-btn {
+    margin-right: 50px;
+  }
+
+  header {
+    padding: 60px 128px;
+  }
+
+  .residences {
+    padding: 64px 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-contact-container {
+    display: none;
+  }
+
+  .home {
+    padding: 100px 128px;
+  }
+
+  /* services */
+
+  .services,
+  .residences {
+    padding: 64px 56px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 60px 64px;
+  }
+  .home {
+    padding: 100px 64px;
+  }
+
+  .hero-content-title {
+    font-size: 2.4rem;
+  }
+
+  .about-title1 {
+    font-size: 2.4rem;
+  }
+
+  .property-title1 {
+    font-size: 2.4rem !important;
+  }
+
+  .hero-content-sub {
+    font-size: 0.8rem;
+  }
+
+  * {
+    font-size: 14px;
+  }
+
+  /* services */
+
+  .services,
+  .residences {
+    padding: 64px 32px;
+  }
+
+  .subscribe {
+    padding: 128px 32px;
+  }
+
+  .subscribe-text {
+    padding: 0;
+  }
+
+  .email-form-address {
+    padding: 12px;
+  }
+
+  .email-form-btn {
+    color: black;
+    border: none;
+    padding: 4px 8px;
+  }
+
+  .residences-image-text {
+    color: white;
+    bottom: 50px;
+    width: 100%;
+  }
+
+  .residences-image-text h4 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .residences-image-text p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+}
+
+/* test */
+
+.c-item {
+  height: 100dvh;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.offcanvas-top {
+  height: 80vh !important;
+}
+
+/*  */

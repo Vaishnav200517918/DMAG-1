@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!--  -->
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+        aria-label="Toggle navigation"
+      >
+        <img src="img/menu2.png" width="30" alt="" />
+      </button>
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div
+          class="offcanvas-body d-flex justify-content-center align-items-center text-center menu-container"
+        >
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="properties.html">PROPERTY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--  -->
+
+      <a href="#" class="brand">
+        <img src="img/DMAG-WHITE LOGO.png" width="160" alt="" />
+      </a>
+      <div class="hero-contact-container">
+        <a class="" href="Contact">
+          <img src="img/whatsapp3.png" width="30" alt="" />
+        </a>
+        <a class="hero-find" href="#">
+          <p>FIND YOUR HOME</p>
+        </a>
+      </div>
+    </header>
+
+    <section class="homepage">
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <div>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide="prev"
+              class="left-slider"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide="next"
+              class="right-slider"
+            ></button>
+          </div>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img
+              src="img/Background 1st slide.webp"
+              class="d-block w-100 c-img"
+              alt="Slide 1"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <h2 class="hero-content-title">
+                Explore The Best Properties <br />To Invest In Dubai
+              </h2>
+              <p class="hero-content-sub">
+                100,000+ LISTINGS • 9,000 trusted buyers • 3 countries
+              </p>
+            </div>
+            <div class="carousel-caption text-end hero-residence">
+              <p class="hero-residence">
+                Club Drive Dubai Hills Estate • by emaar
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item c-item">
+            <img
+              src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100"
+              class="d-block w-100 c-img"
+              alt="Slide 2"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <h2 class="hero-content-title">
+                Explore The Best Properties <br />To Invest In Dubai
+              </h2>
+              <p class="hero-content-sub">
+                100,000+ LISTINGS • 9,000 trusted buyers • 3 countries
+              </p>
+            </div>
+            <div class="carousel-caption text-end hero-residence">
+              <p class="hero-residence">
+                Club Drive Dubai Hills Estate • by emaar
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="https://images.unsplash.com/photo-1612686635542-2244ed9f8ddc?fit=crop&w=2070&q=100"
+              class="d-block w-100 c-img"
+              alt="Slide 3"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <h2 class="hero-content-title">
+                Explore The Best Properties <br />To Invest In Dubai
+              </h2>
+              <p class="hero-content-sub">
+                100,000+ LISTINGS • 9,000 trusted buyers • 3 countries
+              </p>
+            </div>
+            <div class="carousel-caption text-end hero-residence">
+              <p class="hero-residence">
+                Club Drive Dubai Hills Estate • by emaar
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev d-none"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next d-none"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- <div class="hero-content">
+        <h2 class="hero-content-title">
+          Explore The Best Properties <br />To Invest In Dubai
+        </h2>
+        <p class="hero-content-sub">
+          100,000+ LISTINGS • 9,000 trusted buyers • 3 countries
+        </p>
+      </div> -->
+    </section>
+    <section id="services" class="services">
+      <div class="article">
+        <h4 class="article-subtitle">Dynamic Realty Solutions</h4>
+        <h3 class="article-title">
+          Integrated.&nbsp Expansive.&nbsp Synergistic.
+        </h3>
+        <p class="article-text">
+          Discover an integrated approach to real estate with our versatile
+          services. From prime commercial spaces to expansive plots and
+          collaborative joint ventures, we provide synergistic solutions that
+          redefine the possibilities of your property ventures. At the
+          intersection of innovation and expertise, we redefine possibilities,
+          ensuring your real estate experience is not only strategic but also
+          marked by seamless synergy.
+        </p>
+      </div>
+
+      <div class="services-image-container container-fluid">
+        <div class="row">
+          <div class="services-image col-sm-4 p-0">
+            <img src="img/service1.webp" alt="" />
+          </div>
+          <div class="services-image col-sm-4 p-0">
+            <img src="img/service2.webp" alt="" />
+          </div>
+          <div class="services-image col-sm-4 p-0">
+            <img src="img/service3.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <h5 class="services-title">| OUR SERVICES |</h5>
+    </section>
+
+    <section class="home-about">
+      <div class="container-fluid">
+        <div id="home-about-row" class="row">
+          <div class="col-md-6">
+            <img
+              class="img-fluid"
+              src="DMAG\ELEMENTS\D-Opacity.webp"
+              alt="DMAG Image"
+            />
+          </div>
+
+          <div class="col-md-6" id="home-about-right">
+            <h2 class="home-about-title">ABOUT DMAG</h2>
+            <p class="home-about-p">
+              Write a paragraph that talks about your brand or property here.
+              Convince your prospective clients to choose you and your offerings
+              by highlighting the qualities that set you apart from the
+              competition. Your audience is already on your website, so push a
+              little bit harder to seal the deal!
+            </p>
+            <p class="home-about-p">
+              Write another paragraph that talks about your brand or property
+              here. Convince your prospective clients to choose you and your
+              offerings by highlighting the qualities that set you apart from
+              the competition. Your audience is already on your website, so push
+              a little bit harder to seal the deal!
+            </p>
+            <div class="home-about-button">
+              <a href="#" class="btn-custom">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="residences">
+      <div class="article">
+        <h4 class="article-subtitle">
+          Discover Dubai's Exclusive Off-Plan Residences
+        </h4>
+        <h3 class="article-title">
+          Luxurious.&nbsp Innovative.&nbsp Exclusive
+        </h3>
+        <p class="article-text">
+          Step into luxury with our exclusive Off-Plan Properties in Dubai.
+          Elevate your lifestyle with visionary designs, stunning views, and
+          top-tier amenities. Your dream home is more than a vision; it's a
+          reality waiting to be discovered. Redefine your living in the heart of
+          Dubai with our selected properties – where your dream home becomes
+          your home. Welcome to a world of elegance, welcome home.
+        </p>
+      </div>
+
+      <div class="residences-image-container container-fluid">
+        <div class="row g-5">
+          <div
+            class="residences-image position-relative col-md-4 col-sm-6 px-4 g-5"
+          >
+            <div class="image-container">
+              <img class="residences-images" src="img/1.webp" alt="" />
+              <div class="position-absolute text-center residences-image-text">
+                <h4>Jouri Hills by Arada</h4>
+                <p>Jumeirah Golf Estates</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="residences-image position-relative col-md-4 col-sm-6 px-4 g-5"
+          >
+            <div class="image-container">
+              <img class="residences-images" src="img/2.webp" alt="" />
+              <div class="position-absolute text-center residences-image-text">
+                <h4>Jouri Hills by Arada</h4>
+                <p>Jumeirah Golf Estates</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="residences-image position-relative col-md-4 col-sm-6 px-4 g-5"
+          >
+            <div class="image-container">
+              <img class="residences-images" src="img/3.webp" alt="" />
+              <div class="position-absolute text-center residences-image-text">
+                <h4>Jouri Hills by Arada</h4>
+                <p>Jumeirah Golf Estates</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="residences-image position-relative col-md-4 col-sm-6 px-4 g-5"
+          >
+            <div class="image-container">
+              <img class="residences-images" src="img/4.webp" alt="" />
+              <div class="position-absolute text-center residences-image-text">
+                <h4>Jouri Hills by Arada</h4>
+                <p>Jumeirah Golf Estates</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="residences-image position-relative col-md-4 col-sm-6 px-4 g-5"
+          >
+            <div class="image-container">
+              <img class="residences-images" src="img/5.webp" alt="" />
+              <div class="position-absolute text-center residences-image-text">
+                <h4>Jouri Hills by Arada</h4>
+                <p>Jumeirah Golf Estates</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="residences-image position-relative col-md-4 col-sm-6 px-4 g-5"
+          >
+            <div class="image-container">
+              <img class="residences-images" src="img/6.webp" alt="" />
+              <div class="position-absolute text-center residences-image-text">
+                <h4>Jouri Hills by Arada</h4>
+                <p>Jumeirah Golf Estates</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container blog-line"></div>
+
+    <section class="blog">
+      <div class="container-fluid mt-5">
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="DMAG\ELEMENTS\1 3.webp"
+                class="card-img-top"
+                alt="Card Image"
+              />
+              <div class="card-body">
+                <h6>03 MARCH 2023</h6>
+                <h5 class="card-title">NAVIGATING THE REAL ESTATE MARKET</h5>
+                <p class="card-text">
+                  Entering the real estate market as a first-time buyer is both
+                  exciting and daunting. It's a significant milestone, but it
+                  can also be overwhelming without proper guidance...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="DMAG\ELEMENTS\2 3.webp"
+                class="card-img-top"
+                alt="Card Image"
+              />
+              <div class="card-body">
+                <h6>11 MARCH 2023</h6>
+                <h5 class="card-title">THE FUTURE OF SMART HOMES</h5>
+                <p class="card-text">
+                  Smart homes have come a long way since the inception of basic
+                  automation systems. In the not-so-distant future...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="DMAG\ELEMENTS\3 3.webp"
+                class="card-img-top"
+                alt="Card Image"
+              />
+              <div class="card-body">
+                <h6>03 MARCH 2023</h6>
+                <h5 class="card-title">YOUR NEIGHBORHOOD IN DUBAI:</h5>
+                <p class="card-text">
+                  When it comes to buying a home, the age-old adage still rings
+                  true: "Location, location, location." The neighborhood you..
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="article">
+        <h4 class="article-subtitle subscribe-subtitle">
+          Subscribe to our newsletter.
+        </h4>
+        <h3 class="article-title subscribe-title">
+          INSIGHT.&nbsp UPDATES.&nbsp CONNECTED.
+        </h3>
+        <p class="article-text subscribe-text">
+          Unlock exclusive real estate insights with our dynamic newsletter,
+          delivering curated updates, market trends, and insider perspectives.
+          Stay ahead in the property world with our concise, informative, and
+          timely dispatches. becomes your home. Welcome to a world of elegance,
+          welcome home.
+        </p>
+      </div>
+      <form class="email-form">
+        <input
+          class="email-form-address"
+          type="email"
+          placeholder="Email Address"
+        />
+        <input class="email-form-btn" type="submit" value="SUBSCRIBE" />
+      </form>
+    </section>
+    <section class="footer">
+      <div class="container-fluid">
+        <div id="footer-row" class="row">
+          <div class="col-md-6 pd-t-3">
+            <h2>GET IN TOUCH</h2>
+            <div class="footer-sub">
+              <p>
+                Ready to make your move?<br />
+                We're here to help. Use the form below to reach out,<br />
+                and let's start your real estate journey together!
+              </p>
+            </div>
+
+            <div class="footer-card md-3">
+              <div class="row">
+                <div id="footer-icon" id="footer-icon">
+                  <object
+                    type="image/svg+xml"
+                    data="DMAG\ELEMENTS\icon1.svg"
+                    width="25"
+                    height="25"
+                  ></object>
+                </div>
+                <div class="footer-card-body">
+                  <h6>OFFICE</h6>
+                  <p>Dmag International Properties LLC</p>
+                  <p>Office #205, Ontario Tower, Business Bay, Dubai, UAE</p>
+                  <p>PO Box. 504499</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-card md-3">
+              <div class="row">
+                <div id="footer-icon" id="footer-icon">
+                  <object
+                    type="image/svg+xml"
+                    data="DMAG\ELEMENTS\icon2.svg"
+                    width="25"
+                    height="25"
+                  ></object>
+                </div>
+                <div class="footer-card-body">
+                  <h6>PHONE</h6>
+                  <p>+971 50 530 6401</p>
+                  <p>+971 55 198 6364</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-card md-3">
+              <div class="row">
+                <div id="footer-icon" id="footer-icon">
+                  <object
+                    type="image/svg+xml"
+                    data="DMAG\ELEMENTS\icon1.svg"
+                    width="25"
+                    height="25"
+                  ></object>
+                </div>
+                <div class="footer-card-body">
+                  <h6>EMAIL</h6>
+                  <p>deepak@dmag.ae</p>
+                  <p>abdulgafoor@dmag.ae</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social">
+              <h6>FOLLOW US</h6>
+              <div class="container pt-3">
+                <div class="row">
+                  <div class="social-img col-1">
+                    <a
+                      href="your_facebook_link"
+                      target="_blank"
+                      class="text-decoration-none"
+                    >
+                      <img
+                        src="DMAG/ELEMENTS/fb.webp"
+                        alt="Facebook"
+                        class="img-fluid mb-2"
+                        width="30"
+                        height="30"
+                      />
+                    </a>
+                  </div>
+                  <div class="social-img col-1">
+                    <a
+                      href="your_instagram_link"
+                      target="_blank"
+                      class="text-decoration-none"
+                    >
+                      <img
+                        src="DMAG/ELEMENTS/insta.webp"
+                        alt="Instagram"
+                        class="img-fluid mb-2"
+                        width="30"
+                        height="30"
+                      />
+                    </a>
+                  </div>
+                  <div class="social-img col-1">
+                    <a
+                      href="your_tiktok_link"
+                      target="_blank"
+                      class="text-decoration-none"
+                    >
+                      <img
+                        src="DMAG/ELEMENTS/tiktok.png"
+                        alt="TikTok"
+                        class="img-fluid mb-2"
+                        width="30"
+                        height="30"
+                      />
+                    </a>
+                  </div>
+                  <div class="social-img col-1">
+                    <a
+                      href="your_twitter_link"
+                      target="_blank"
+                      class="text-decoration-none"
+                    >
+                      <img
+                        src="DMAG/ELEMENTS/twitter.webp"
+                        alt="Twitter"
+                        class="img-fluid mb-2"
+                        width="30"
+                        height="30"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <img
+              class="img-fluid float-right"
+              src="DMAG\ELEMENTS\BOTTOM.webp"
+              alt="DMAG Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="nav-footer">
+      <div id="nav-footer" class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <ul class="footer-nav">
+              <li><a href="#">Home</a></li>
+              <li><span class="separator">|</span></li>
+              <li><a href="#">About Us</a></li>
+              <li><span class="separator">|</span></li>
+              <li><a href="#">Services</a></li>
+              <li><span class="separator">|</span></li>
+              <li><a href="#">Properties</a></li>
+              <li><span class="separator">|</span></li>
+              <li><a href="#">News</a></li>
+              <li><span class="separator">|</span></li>
+              <li><a href="#">Contact</a></li>
+              <li><span class="separator">|</span></li>
+              <li><a href="#">Terms of use</a></li>
+              <li><span class="separator">|</span></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="copyright col-md-2 d-flex">
+            <p>© 2024 - DMAG</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

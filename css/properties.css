@@ -1,0 +1,124 @@
+.properties-home {
+  display: flex;
+  align-items: center;
+}
+.hero-properties-title {
+  font-size: 3.3rem;
+  text-transform: uppercase;
+  margin: 32px 0px;
+  color: white;
+  line-height: 3.3rem;
+  font-weight: 300;
+}
+
+.properties {
+  padding: 64px 160px;
+  background-color: #f9f9f7;
+}
+
+.properties-navlink {
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 32px;
+}
+
+.sort-filter {
+  width: 280px;
+  margin-bottom: 12px;
+}
+
+.properties-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 64px;
+}
+
+.filter-flex select {
+  border-radius: 0;
+  color: white;
+  padding: 10px 14px;
+  background: url("../img/downarrow.png") no-repeat right;
+  background-size: 10px;
+  background-color: #1d4f3a;
+  background-position-x: 96%;
+  padding-right: 40px;
+}
+
+.filter-flex2 {
+  flex-grow: 4;
+}
+
+.filter-flex3 {
+  flex-grow: 3;
+}
+
+.filter-flex4 {
+  flex-grow: 3;
+}
+
+.filter-flex5 {
+  flex-grow: 3;
+}
+
+.filter-flex6 {
+  flex-grow: 3;
+}
+
+.search-btn {
+  background-color: #1d4f3a;
+  padding: 10px 14px;
+  color: white;
+}
+
+.properties-card {
+  background-color: white;
+}
+.properties-subslider-image {
+  aspect-ratio: 4/3;
+}
+
+.properties-subslider-title {
+  font-weight: 700;
+}
+
+.carousel-control-prev-icon {
+  background: url("../img/leftarrow.png") no-repeat center;
+  background-size: 20px;
+}
+
+.carousel-control-next-icon {
+  background: url("../img/rightarrow.png") no-repeat center;
+  background-size: 20px;
+}
+.carousel-indicator-width {
+  width: 0px;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+}
+
+.carousel-indicators .active {
+  transform: scale(1.3);
+}
+
+@media screen and (max-width: 992px) {
+  .properties {
+    padding: 64px 96px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .properties {
+    padding: 64px 96px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .properties {
+    padding: 64px 32px;
+  }
+}

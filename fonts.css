@@ -1,0 +1,102 @@
+/* fonts.css */
+@font-face {
+  font-family: 'Gordita-Regular';
+  src: url('DMAG\FONTS\Gordita-Text\Gordita-Regular.otf') ;
+}
+
+@font-face {
+  font-family: 'Gordita-Regular';
+  src: url('DMAG\FONTS\Gordita-Text\Gordita-Medium.otf') ;
+}
+
+
+@font-face {
+    font-family: 'Montserrat-ThinItalic';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-ThinItalic.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Black';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-Black.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-BlackItalic';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-BlackItalic.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-Bold.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-BoldItalic';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-BoldItalic.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-ExtraBold.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-ExtraBoldItalic';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-ExtraBoldItalic.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-ExtraLight.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-ExtraLightItalic';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-ExtraLightItalic.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Italic';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-Italic.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Light';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-Light.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-LightItalic';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-LightItalic.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-Medium.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-MediumItalic';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-MediumItalic.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-Regular.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-SemiBold.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-SemiBoldItalic';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-SemiBoldItalic.ttf') ;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Thin';
+    src: url('DMAG/FONTS/Montserrat-Headline/static/Montserrat-Thin.ttf') ;
+  }
+  
