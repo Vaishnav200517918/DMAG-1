@@ -12,7 +12,7 @@
 }
 
 .properties {
-  padding: 64px 160px;
+  padding: 64px 128px;
   background-color: #f9f9f7;
 }
 
@@ -80,6 +80,9 @@
 
 .properties-subslider-title {
   font-weight: 700;
+}
+.properties-subslider-text {
+  margin-left: 10px;
 }
 
 .carousel-control-prev-icon {
