@@ -237,7 +237,7 @@ header {
 .overlay-text {
     position: absolute;
     bottom: 30px;
-    left: 85px;
+    padding-left: 85px;
     transform-origin: left bottom;
     color: white; /* Change the color as needed */
     font-size: 18px; /* Adjust the font size as needed */
