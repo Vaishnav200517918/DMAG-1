@@ -236,7 +236,7 @@ header {
 
 .overlay-text {
     position: absolute;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     margin-left: 85px;
     transform-origin: left bottom;
     color: white; /* Change the color as needed */
