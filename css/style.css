@@ -234,6 +234,26 @@ header {
   overflow: hidden;
 }
 
+.overlay-text {
+    position: absolute;
+    bottom: 30px;
+    left: 85px;
+    transform-origin: left bottom;
+    color: white; /* Change the color as needed */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+    padding: 5px; /* Add padding for better visibility */
+    rotate: -90deg; /* Rotate the text vertically from bottom to top */
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase; 
+    letter-spacing: 0.11em;
+    padding: 20px 0;
+    width:100%;
+}
+
 .services-title {
   margin-top: 64px;
 }
@@ -402,6 +422,12 @@ header {
 
 /* MEDIA QUERY */
 
+@media screen and (max-width: 1300px) {
+    .overlay-text{
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 992px) {
   .menu-btn {
     margin-right: 50px;
@@ -434,6 +460,9 @@ header {
   .properties-custom {
     height: 90vw;
   }
+  .overlay-text{
+    font-size: 1rem;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -473,6 +502,9 @@ header {
   .properties-custom {
     height: 90vw;
   }
+  .overlay-text{
+    font-size: 1rem;
+}
 }
 
 @media screen and (max-width: 576px) {
@@ -578,6 +610,11 @@ header {
   .properties-custom {
     height: 120vw;
   }
+  .overlay-text{
+    font-size: 2rem;
+    white-space: nowrap;
+
+}
 }
 
 /* test */
@@ -594,5 +631,8 @@ header {
 .offcanvas-top {
   height: 80vh !important;
 }
+
+
+
 
 /*  */
